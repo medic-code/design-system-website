@@ -1,24 +1,24 @@
 /* eslint-disable prettier/prettier */
 // eslint-disable-next-line prettier/prettier
 import styled from "styled-components";
-import { fontWeights } from "../../lib";
+import { fontWeights, green,fontSizes,primaryFont } from "../../lib";
 import { applyStyleModifiers } from "styled-components-modifiers";
 
 const ANCHOR_MODIFIERS = {
   underline: () => `
         &:hover {
-            color: yellow;
-            border-bottom: 2px solid;
-            border-color: black;
+            border-bottom: 3px solid;
+            border-color:  ${green[800]};
         }
     `,
 };
 
 const StyledAnchor = styled.a<{ modifiers?: "underline" | string[] }>`
   lineheight: inherit;
-  font-weight: ${fontWeights[300]};
-  font-size: 16px;
-  color: red;
+  font-family: "inherit";
+  font-weight: ${fontWeights["bold"]};
+  font-size: ${(props) => (props.size ? props.size : fontSizes['paragraph'])};
+  color: ${green[800]};
   transition: border-color 0.3s ease, color 0.3s ease;
   word-break: break-word;
   outline: "none";
