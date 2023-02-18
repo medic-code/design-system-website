@@ -2,6 +2,8 @@ export const fonts = {
 
 }
 
+export const linkBorder = '3px';
+
 export const primaryFont = "apple-system"
 
 export const fontSizes = {
@@ -15,8 +17,8 @@ export const fontSizes = {
 }
 
 export const fontWeights = {
-    300: "300",
-    400: "400",
-    500: "500",
-    600: "600"
-}
+    "normal": "300",
+    "400": "400",
+    "semibold": "500",
+    "bold": "600"
+} 
