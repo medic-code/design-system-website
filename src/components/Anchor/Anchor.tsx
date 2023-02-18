@@ -7,10 +7,10 @@ const Anchor = forwardRef(function Anchor(
   props: UnderlineAnchorProps,
   ref: React.Ref<HTMLAnchorElement>
 ) {
-  const { children, modifiers } = props;
+  const { children, modifiers,...rest } = props;
 
   return (
-    <StyledAnchor ref={ref} modifiers={modifiers}>
+    <StyledAnchor ref={ref} modifiers={modifiers} {...rest}>
       {children}
     </StyledAnchor>
   );

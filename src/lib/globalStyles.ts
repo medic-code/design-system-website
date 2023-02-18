@@ -5,16 +5,16 @@ import { primaryFont } from "./typography"
 const globalStyle = createGlobalStyle`
     ${normalize()}
     html {
-        box-sizing: border-box
-        font-size: 14px
+        box-sizing: border-box;
+        font-size: 16px;
+        font-family: ${primaryFont};
     }
     *, *:before, *:after {
-        "box-sizing": inherit
+        "box-sizing": inherit;
     }
 
     body {
-        margin: 0
-        font-family: ${primaryFont}
+        margin: 0;
     }
 `
 
