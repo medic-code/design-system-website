@@ -3,7 +3,7 @@ module.exports = {
   propsParser: require('react-docgen-typescript').withCustomConfig(
     './tsconfig.json'
   ).parse,
-  ignore: ['./src/components/**/*.style.{js,jsx,ts,tsx}'],
+  ignore: ['./src/components/**/*.styles.{js,jsx,ts,tsx}'],
   webpackConfig: {
     module: {
       rules: [
