@@ -4,7 +4,11 @@ export const fonts = {
 
 export const linkBorder = '3px';
 
-export const primaryFont = "apple-system"
+export const lineHeight = 1.9;
+
+export const letterSpacing = "0.3px";
+
+export const primaryFont = "apple-system";
 
 export const fontSizes = {
     '14': '14px;',
