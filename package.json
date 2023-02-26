@@ -1,5 +1,5 @@
 {
-  "name": "design-system-website",
+  "name": "@medic-code/design-system-website",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
