@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/medic-code/design-system-website.git"
+    "url": "https://github.com/medic-code/design-system-website.git"
   },
   "author": "Aaron Smith",
   "license": "ISC",
