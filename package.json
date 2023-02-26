@@ -1,5 +1,5 @@
 {
-  "name": "@medic-code/design-system",
+  "name": "design-system-website",
   "main": "./dist/esm/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/types/index.d.ts",
@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/medic-code/design-system.git"
+    "url": "git+https://github.com/medic-code/design-system-website.git"
   },
   "author": "Aaron Smith",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/medic-code/design-system/issues"
+    "url": "https://github.com/medic-code/design-system-website/issues"
   },
-  "homepage": "https://github.com/medic-code/design-system#readme",
+  "homepage": "https://github.com/medic-code/design-system-website#readme",
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
