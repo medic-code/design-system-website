@@ -83,6 +83,6 @@
     ]
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@medic-code"
+    "registry": "https://npm.pkg.github.com/"
   }
 }
