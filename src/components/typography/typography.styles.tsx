@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { fontSizes,gray,fontWeights, letterSpacing, lineHeight} from '../../lib';
 import { applyStyleModifiers } from 'styled-components-modifiers';
-import { IProps } from './typography.types'
+import { IProps } from './Typography.types'
 
 const TEXT_MODIFIERS = {
     heading: () => `

@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 
-import StyledText from "./typography.styles";
-import TextProps from "./typography.types";
+import StyledText from "./Typography.styles";
+import TextProps from "./Typography.types";
 
 const Text = function Text(
   props: TextProps,
