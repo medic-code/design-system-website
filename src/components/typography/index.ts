@@ -1,1 +1,1 @@
-export { default } from './typographyText';
+export { default } from './TypographyText';
