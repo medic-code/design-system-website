@@ -1,3 +1,3 @@
 export const grid = {
-    "default-gutter": "1fr"
-}
+  "default-gutter": "1fr",
+};

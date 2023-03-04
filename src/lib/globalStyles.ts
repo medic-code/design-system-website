@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import { normalize } from "polished";
-import { primaryFont } from "./typography"
+import { primaryFont } from "./typography";
 
 const globalStyle = createGlobalStyle`
     ${normalize()}
@@ -16,6 +16,6 @@ const globalStyle = createGlobalStyle`
     body {
         margin: 0;
     }
-`
+`;
 
 export default globalStyle;

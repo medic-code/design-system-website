@@ -1,8 +1,6 @@
-export const fonts = {
+export const fonts = {};
 
-}
-
-export const linkBorder = '3px';
+export const linkBorder = "3px";
 
 export const lineHeight = 1.9;
 
@@ -11,18 +9,18 @@ export const letterSpacing = "0.3px";
 export const primaryFont = "apple-system";
 
 export const fontSizes = {
-    '14': '14px;',
-    'helpertext': '0.875rem',
-    'paragraph': '1rem',
-    'header4': '1.125rem',
-    'header3': '1.25rem',
-    'header2': '1.5rem',
-    'header1': '2rem',
-}
+  "14": "14px;",
+  helpertext: "0.875rem",
+  paragraph: "1rem",
+  header4: "1.125rem",
+  header3: "1.25rem",
+  header2: "1.5rem",
+  header1: "2rem",
+};
 
 export const fontWeights = {
-    "normal": "300",
-    "400": "400",
-    "semibold": "500",
-    "bold": "600"
-} 
+  normal: "300",
+  "400": "400",
+  semibold: "500",
+  bold: "600",
+};
