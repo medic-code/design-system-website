@@ -4,10 +4,10 @@
   "module": "dist/index.js",
   "types": "dist/types/index.d.ts",
   "sideEffects": false,
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "Design System for Personal Website",
   "scripts": {
-    "build": "npm run clean && node ./esbuild.prod.js",
+    "build": "npm run clean && npm run ts-types && node ./esbuild.prod.js",
     "clean": "rimraf dist",
     "dev": "npm run clean && node ./esbuild.dev.js & npm run ts-types",
     "format": "prettier --ignore-path .gitgnore --write \"./**/*.{ts,tsx}\"",

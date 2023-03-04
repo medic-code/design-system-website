@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-// eslint-disable-next-line prettier/prettier
 import styled from "styled-components";
 import { fontWeights, green,fontSizes,primaryFont } from "../../lib";
 import { applyStyleModifiers } from "styled-components-modifiers";
@@ -13,7 +11,11 @@ const ANCHOR_MODIFIERS = {
     `,
 };
 
-const StyledAnchor = styled.a<{ modifiers?: "underline" | string[] }>`
+interface AnchorProps {
+  modifiers?: "underline" | string[];
+  size: string;
+} 
+const StyledAnchor = styled.a<AnchorProps>`
   lineheight: inherit;
   font-family: "inherit";
   font-weight: ${fontWeights["bold"]};

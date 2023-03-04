@@ -1,7 +1,8 @@
 interface UnderlineAnchorProps
   extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  arrow?: never;
+  children: React.ReactNode,
   modifiers?: string[] | "underline";
+  size: string;
 }
 
 export default UnderlineAnchorProps;
