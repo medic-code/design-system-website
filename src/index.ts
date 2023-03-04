@@ -1,9 +1,5 @@
-export { default as globalStyle } from "./lib/globalStyles";
-export * from "./lib/colors";
-export * from "./lib/radii";
-export * from "./lib/layout";
-export * from "./lib/spaces";
-export * from "./lib/typography";
+
+export * from "./lib"
 
 export { default as Anchor } from "./components/Anchor";
 export { default as Button } from "./components/Button";
