@@ -3,7 +3,7 @@
     "exclude": ["./node_modules", "**/*.test.*"],
     "compilerOptions": {
       "target": "es6",                         
-      "module": "commonjs",                     
+      "module": "esnext",                     
        "jsx": "react-jsx",                  
        "declaration": true,
        "declarationDir": "dist/types", 
