@@ -5,7 +5,7 @@
   "types": "dist/types/index.d.ts",
   "type": "module",
   "sideEffects": false,
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Design System for Personal Website",
   "scripts": {
     "build": "npm run clean && npm run ts-types && node ./esbuild.prod.js",
