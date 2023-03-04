@@ -6,7 +6,7 @@ const Flex = styled.div<FlexProps>`
     align-items: ${(props) => props.alignItems || "center"};
     wrap: ${(props) => props.wrap || "nowrap"};
     flex-direction: ${(props) => props.flexDirection || "row"};
-    justifyContent; ${(props) => props.justifyContent || "flex-start"}
+    justifyContent: ${(props) => props.justifyContent || "flex-start"};
 `;
 
 export default Flex;
