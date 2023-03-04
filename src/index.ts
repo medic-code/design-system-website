@@ -1,4 +1,4 @@
-export * from "./lib/globalStyles";
+export { default as globalStyle } from "./lib/globalStyles";
 export * from "./lib/colors";
 export * from "./lib/radii";
 export * from "./lib/layout";
@@ -11,5 +11,6 @@ export { default as Typography } from "./components/Typography";
 export { default as Grid } from "./components/Grid";
 export { default as Flex } from "./components/Flex";
 export { default as Box } from "./components/Box";
+
 
 export * from "./components/Icon";
