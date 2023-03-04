@@ -1,10 +1,10 @@
 {
   "name": "@medic-code/design-system-website",
-  "main": "./src/index.js",
-  "module": "./dist/index.js",
-  "types": "./dist/types/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/types/index.d.ts",
   "sideEffects": false,
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Design System for Personal Website",
   "scripts": {
     "build": "npm run clean && node ./esbuild.prod.js",
