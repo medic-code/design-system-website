@@ -1,5 +1,5 @@
-const esbuild = require("esbuild");
-const { globPlugin } = require('esbuild-plugin-glob');
+import esbuild from 'esbuild';
+import { globPlugin } from 'esbuild-plugin-glob';
 
 esbuild.build({
     color: true,
