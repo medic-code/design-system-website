@@ -34,7 +34,7 @@ const TEXT_MODIFIERS = {
 const StyledText = styled.p<IProps>`
   margin: 0 0 2.25rem 0;
   padding: 0;
-  line-height: ${lineHeight};
+  line-height: 1.5;
   font-size: ${(props) => (props.size ? props.size : fontSizes["paragraph"])};
   font-family: ${primaryFont};
   font-weight: ${(props) =>props.fontWeight ? props.fontWeight : fontWeights["normal"]};
