@@ -5,28 +5,39 @@ import {
   fontWeights,
   letterSpacing,
   lineHeight,
+  primaryFont
 } from "../../lib";
 import { applyStyleModifiers } from "styled-components-modifiers";
 import { IProps } from "./Typography.types";
 
+const HEADING = `letter-spacing: 0px;
+                 line-height: 1.6818;
+                margin-bottom: 1.45rem;`
+
 const TEXT_MODIFIERS = {
-  heading: () => `
+  heading1: () => `
         font-weight: ${fontWeights["bold"]}
-        letter-spacing: 0px;
-        line-height: 1.6818;
-        margin-bottom: 1.45rem;
+        ${HEADING}
     `,
-};
+  heading2: () => `
+    font-weight: ${fontWeights["semibold"]}
+    ${HEADING}
+    `,
+  heading3: () => `
+    font-weight: ${fontWeights["400"]}
+    ${HEADING}`,
+  heading4: () => `
+    font-weight: ${fontWeights["normal"]}
+    ${HEADING}`
+}
 
 const StyledText = styled.p<IProps>`
-  margin: 0;
+  margin: 0 0 2.25rem 0;
   padding: 0;
-  letter-spacing: ${lineHeight};
-  line-height: ${letterSpacing};
+  line-height: ${lineHeight};
   font-size: ${(props) => (props.size ? props.size : fontSizes["paragraph"])};
-  font-family: inherit;
-  font-weight: ${(props) =>
-    props.fontWeight ? props.fontWeight : fontWeights["normal"]};
+  font-family: ${primaryFont};
+  font-weight: ${(props) =>props.fontWeight ? props.fontWeight : fontWeights["normal"]};
   color: ${(props) => (props.color ? props.color : gray[800])};
   ${applyStyleModifiers(TEXT_MODIFIERS)}
 `;
