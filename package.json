@@ -4,7 +4,7 @@
   "module": "dist/esm/index.js",
   "types": "dist/types/index.d.ts",
   "sideEffects": false,
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "Design System for Personal Website",
   "scripts": {
     "build": "npm run clean && npm run ts-types && node ./esbuild.prod.js",

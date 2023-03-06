@@ -16,18 +16,18 @@ const HEADING = `letter-spacing: 0px;
 
 const TEXT_MODIFIERS = {
   heading1: () => `
-        font-weight: ${fontWeights["bold"]}
+        font-weight: ${fontWeights["bold"]};
         ${HEADING}
     `,
   heading2: () => `
-    font-weight: ${fontWeights["semibold"]}
+    font-weight: ${fontWeights["semibold"]};
     ${HEADING}
     `,
   heading3: () => `
-    font-weight: ${fontWeights["400"]}
+    font-weight: ${fontWeights["400"]};
     ${HEADING}`,
   heading4: () => `
-    font-weight: ${fontWeights["normal"]}
+    font-weight: ${fontWeights["normal"]};
     ${HEADING}`
 }
 
